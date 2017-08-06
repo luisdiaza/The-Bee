@@ -1,0 +1,18 @@
+body{
+    font-family: 'Lato';
+    font-size: 100%; /* displaying font size in percents and em displays the same size in all browsers and allows them to resize them*/
+    padding: 0;/* following two lines removes white on all sides of website*/
+    margin: 0;
+}
+
+/* Global */
+
+.container{
+    width: 95%;
+    margin: auto; /* automatically centers elements within their container */
+}
+
+ul{ /* removes the padding for all unordered lists*/
+    margin: 0;
+    padding: 0;
+}
