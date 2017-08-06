@@ -16,3 +16,31 @@ ul{ /* removes the padding for all unordered lists*/
     margin: 0;
     padding: 0;
 }
+
+/* Header */
+header{
+    padding-top: 30px;
+}
+
+header .branding{
+    float: left;
+    text-transform: uppercase;
+    color: #484d56;
+}
+
+header a{
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+header li{
+    float: left;
+    display: inline;
+    text-transform: uppercase;
+    padding: 0px 20px 0px 20px;
+}
+
+header nav{
+    float: right;
+    margin: 50px 0 50px 0;
+}
