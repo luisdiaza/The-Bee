@@ -44,3 +44,33 @@ header nav{
     float: right;
     margin: 50px 0 50px 0;
 }
+
+/* Product Section */
+.product{
+    width: 86.125%
+    padding: 0 7%;
+    display: table;
+    height: 78vh;
+    margin: 0;
+    max-width: none;
+}
+
+.jar{
+    height: 266px;
+    width: 291px;
+    float: left;
+}
+
+.fromBees{
+    text-transform: uppercase;
+    border-bottom: #ED5144 3px solid;
+    color: #70727a;
+}
+
+.honeyType{
+
+}
+
+.price{
+    color: #ED5144
+}
