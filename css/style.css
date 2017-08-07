@@ -20,6 +20,8 @@ ul{ /* removes the padding for all unordered lists*/
 /* Header */
 header{
     padding-top: 30px;
+    min-height: 60px;
+    border-bottom: #ED5144 3px solid;
 }
 
 header .branding{
@@ -42,7 +44,7 @@ header li{
 
 header nav{
     float: right;
-    margin: 50px 0 50px 0;
+    margin: 35px 0 35px 0;
 }
 
 /* Product Section */
@@ -58,19 +60,36 @@ header nav{
 .jar{
     height: 266px;
     width: 291px;
-    float: left;
+
+}
+.information{
+float: right;
 }
 
 .fromBees{
     text-transform: uppercase;
-    border-bottom: #ED5144 3px solid;
+    border-bottom: #ED5144 3px solid /* border bottom's length is the same as the div's width it's contained within*/
+    width: 12.5%; /* this is why you need to modify the div's width so you get the length that you want */
+
+}
+
+.fromBees, .description, .deliveryType {
     color: #70727a;
 }
 
 .honeyType{
-
+    font-size: 3em;
 }
 
 .price{
-    color: #ED5144
+    color: #ED5144;
+    font-size: 2em;
+}
+
+.add-to-cart{
+    text-transform: uppercase;
+    background-color: #ED5144;
+    border: none;/* buttons come with a border by default*/
+    color: white;
+    text-align: center;
 }
