@@ -3,6 +3,7 @@ body{
     font-size: 100%; /* displaying font size in percents and em displays the same size in all browsers and allows them to resize them*/
     padding: 0;/* following two lines removes white on all sides of website*/
     margin: 0;
+
 }
 
 /* Global */
@@ -47,6 +48,10 @@ header nav{
     margin: 35px 0 35px 0;
 }
 
+.fa-shopping-bag{
+    font-size: 3em;
+}
+
 /* Product Section */
 .product{
     width: 86.125%
@@ -60,16 +65,18 @@ header nav{
 .jar{
     height: 266px;
     width: 291px;
+    float: left;
 
 }
 .information{
-float: right;
+
 }
 
 .fromBees{
     text-transform: uppercase;
-    border-bottom: #ED5144 3px solid /* border bottom's length is the same as the div's width it's contained within*/
+    border-bottom: #ED5144 3px solid; /* border bottom's length is the same as the div's width it's contained within*/
     width: 12.5%; /* this is why you need to modify the div's width so you get the length that you want */
+
 
 }
 
@@ -91,5 +98,12 @@ float: right;
     background-color: #ED5144;
     border: none;/* buttons come with a border by default*/
     color: white;
+    padding: 16px 73px;
     text-align: center;
+    font-size: 1.5em;
+}
+
+.vertical-sidebar{
+    /*transform: rotate(90deg);
+
 }
