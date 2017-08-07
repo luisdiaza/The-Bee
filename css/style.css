@@ -48,12 +48,13 @@ header nav{
     margin: 35px 0 35px 0;
 }
 
-.fa-shopping-bag{
+.fa.fa-shopping-bag, .fa.fa-bars{
     font-size: 3em;
+    padding-bottom: 10px;
 }
 
 /* Product Section */
-.product{
+.product-content-boxes{
     width: 86.125%
     padding: 0 7%;
     display: table;
@@ -62,22 +63,20 @@ header nav{
     max-width: none;
 }
 
+.product-content-box{
+    float: left;
+    width: 45%;
+    padding: 10px;
+}
 .jar{
     height: 266px;
     width: 291px;
-    float: left;
-
-}
-.information{
-
 }
 
 .fromBees{
     text-transform: uppercase;
     border-bottom: #ED5144 3px solid; /* border bottom's length is the same as the div's width it's contained within*/
     width: 12.5%; /* this is why you need to modify the div's width so you get the length that you want */
-
-
 }
 
 .fromBees, .description, .deliveryType {
