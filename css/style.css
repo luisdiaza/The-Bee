@@ -1,6 +1,7 @@
 body{
     font-family: 'Lato';
     font-size: 100%; /* displaying font size in percents and em displays the same size in all browsers and allows them to resize them*/
+    padding: 1.25% 5% 0 5%;
     /*padding: 0;/* following two lines removes white on all sides of website*/
     /*margin: 0;*/
     max-width: 95%;
@@ -20,11 +21,11 @@ ul{ /* removes the padding for all unordered lists*/
 }
 
 p{
-    line-height: 2em;
+    line-height: 1.8em;
 }
 /* Header */
 header{
-    padding-top: 30px;
+    /*padding-top: 30px;*/
     min-height: 60px;
     border-bottom: #ED5144 3px solid;
 }
@@ -33,6 +34,8 @@ header .branding{
     float: left;
     text-transform: uppercase;
     color: #484d56;
+    font-size: .75em;
+    margin-top: 1%;
 }
 
 header a{
@@ -45,6 +48,13 @@ header li{
     display: inline;
     text-transform: uppercase;
     padding: 0px 20px 0px 20px;
+}
+.free-shipping{
+    padding-right: 100px;
+}
+.bars{
+    padding-right: 0px;
+    padding-left: 0px;
 }
 
 header nav{
@@ -59,7 +69,7 @@ header nav{
     display: table;
     height: 78vh;
     margin: 0;
-    margin-top: 7%;
+    margin-top: 14%;
     max-width: none;
 }
 
@@ -68,6 +78,14 @@ header nav{
     width: 45%;
     padding: 10px;
 }
+.box-image-padding{
+    padding-left: 20px;
+}
+
+.box-text-padding{
+    padding-left: 4%;
+}
+
 .section-image{
     height: 75%;
     width: 75%;
@@ -89,9 +107,9 @@ header nav{
 }
 
 .honey-type{
-    font-size: 3em;
+    font-size: 3.5em;
     height: 10%;
-    margin: 0;
+    margin: 5% 0 5% 0;
 }
 
 .price{
@@ -100,6 +118,9 @@ header nav{
     margin: 0
 }
 
+.description{
+    width: 95%;
+}
 .add-to-cart{
     text-transform: uppercase;
     background-color: #ED5144;
@@ -111,7 +132,9 @@ header nav{
     /*font-size: 1.5em;*/
     letter-spacing: 2px;
 }
-
+.delivery-type{
+    margin-top: 10%;
+}
 .vertical-sidebar{
     transform: rotate(90deg);
 
