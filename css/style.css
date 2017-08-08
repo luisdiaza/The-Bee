@@ -27,7 +27,6 @@ p{
 header{
     /*padding-top: 30px;*/
     min-height: 60px;
-    border-bottom: #ED5144 3px solid;
 }
 
 header .branding{
@@ -97,7 +96,7 @@ header nav{
 .from-bees{
     text-transform: uppercase;
     border-bottom: #ED5144 3px solid; /* border bottom's length is the same as the div's width it's contained within*/
-    width: 22%;
+    width: 21%;
     margin: 0;
     /*width: 8%; /* this is why you need to modify the div's width so you get the length that you want */
 }
@@ -119,7 +118,7 @@ header nav{
 }
 
 .description{
-    width: 95%;
+    width: 90%;
 }
 .add-to-cart{
     text-transform: uppercase;
@@ -136,7 +135,8 @@ header nav{
     margin-top: 10%;
 }
 .vertical-sidebar{
-    transform: rotate(90deg);
+    transform: rotate(90deg) translateY(-440px) translateX(-525px);
+    position: absolute;
 
 }
 
