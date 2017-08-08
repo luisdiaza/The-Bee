@@ -1,15 +1,16 @@
 body{
     font-family: 'Lato';
     font-size: 100%; /* displaying font size in percents and em displays the same size in all browsers and allows them to resize them*/
-    padding: 0;/* following two lines removes white on all sides of website*/
-    margin: 0;
-
+    /*padding: 0;/* following two lines removes white on all sides of website*/
+    /*margin: 0;*/
+    max-width: 95%;
+    letter-spacing: 2px;/*spacing between leters*/
 }
 
 /* Global */
 
 .container{
-    width: 95%;
+    width: 100%;
     margin: auto; /* automatically centers elements within their container */
 }
 
@@ -18,6 +19,9 @@ ul{ /* removes the padding for all unordered lists*/
     padding: 0;
 }
 
+p{
+    line-height: 2em;
+}
 /* Header */
 header{
     padding-top: 30px;
@@ -48,11 +52,6 @@ header nav{
     margin: 35px 0 35px 0;
 }
 
-.fa.fa-shopping-bag, .fa.fa-bars{
-    font-size: 3em;
-    padding-bottom: 10px;
-}
-
 /* Product Section */
 .product-content-boxes{
     width: 86.125%
@@ -60,6 +59,7 @@ header nav{
     display: table;
     height: 78vh;
     margin: 0;
+    margin-top: 7%;
     max-width: none;
 }
 
@@ -68,28 +68,36 @@ header nav{
     width: 45%;
     padding: 10px;
 }
-.jar{
-    height: 266px;
-    width: 291px;
+.section-image{
+    height: 75%;
+    width: 75%;
+    /*height: 532px;
+    width: 582px;
+    /*margin-left: 30%;*/
 }
 
-.fromBees{
+.from-bees{
     text-transform: uppercase;
     border-bottom: #ED5144 3px solid; /* border bottom's length is the same as the div's width it's contained within*/
-    width: 12.5%; /* this is why you need to modify the div's width so you get the length that you want */
+    width: 22%;
+    margin: 0;
+    /*width: 8%; /* this is why you need to modify the div's width so you get the length that you want */
 }
 
-.fromBees, .description, .deliveryType {
+.from-bees, .description, .delivery-type {
     color: #70727a;
 }
 
-.honeyType{
+.honey-type{
     font-size: 3em;
+    height: 10%;
+    margin: 0;
 }
 
 .price{
     color: #ED5144;
     font-size: 2em;
+    margin: 0
 }
 
 .add-to-cart{
@@ -99,10 +107,17 @@ header nav{
     color: white;
     padding: 16px 73px;
     text-align: center;
-    font-size: 1.5em;
+    font-size: 1em;
+    /*font-size: 1.5em;*/
+    letter-spacing: 2px;
 }
 
 .vertical-sidebar{
-    /*transform: rotate(90deg);
+    transform: rotate(90deg);
 
+}
+
+.vertical-sidebar li{
+    display: inline;
+    padding: 0px 20px 0px 20px;
 }
