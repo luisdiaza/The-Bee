@@ -34,6 +34,7 @@ p{
 header{
     /*padding-top: 30px;*/
     min-height: 60px;
+    border-bottom: #ED5144 3px solid;
 }
 
 header .branding{
@@ -41,11 +42,12 @@ header .branding{
     text-transform: uppercase;
     color: #484d56;
     font-size: .75em;
-    margin-top: 1%;
+    margin-top: 2%;
 }
 
 .title {
     font-weight: 400;
+    line-height: .5em;
 }
 header a{
     text-decoration: none;
@@ -68,7 +70,8 @@ header li{
 
 header nav{
     float: right;
-    margin: 35px 0 35px 0;
+    margin-top: 3%;
+    font-size: 1em;
 }
 
 /* Product Section */
@@ -104,7 +107,7 @@ header nav{
 .from-bees{
     text-transform: uppercase;
     border-bottom: #ED5144 3px solid; /* border bottom's length is the same as the div's width it's contained within*/
-    width: 21%;
+    width: 22%;
     margin: 0;
     font-weight: 700;
     /*width: 8%; /* this is why you need to modify the div's width so you get the length that you want */
