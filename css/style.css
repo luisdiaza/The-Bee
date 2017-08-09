@@ -37,6 +37,9 @@ header .branding{
     margin-top: 1%;
 }
 
+.title {
+    font-weight: 400;
+}
 header a{
     text-decoration: none;
     text-transform: uppercase;
@@ -98,10 +101,11 @@ header nav{
     border-bottom: #ED5144 3px solid; /* border bottom's length is the same as the div's width it's contained within*/
     width: 21%;
     margin: 0;
+    font-weight: 700;
     /*width: 8%; /* this is why you need to modify the div's width so you get the length that you want */
 }
 
-.from-bees, .description, .delivery-type {
+.from-bees, .description, .delivery-type, .vertical-sidebar li {
     color: #70727a;
 }
 
@@ -109,6 +113,7 @@ header nav{
     font-size: 3.5em;
     height: 10%;
     margin: 5% 0 5% 0;
+    font-weight: 700;
 }
 
 .price{
@@ -119,23 +124,25 @@ header nav{
 
 .description{
     width: 90%;
+    font-weight: 500;
 }
 .add-to-cart{
     text-transform: uppercase;
     background-color: #ED5144;
     border: none;/* buttons come with a border by default*/
     color: white;
-    padding: 16px 73px;
+    padding: 21px 93px;
     text-align: center;
     font-size: 1em;
     /*font-size: 1.5em;*/
     letter-spacing: 2px;
+    border-radius: 4px;
 }
 .delivery-type{
     margin-top: 10%;
 }
 .vertical-sidebar{
-    transform: rotate(90deg) translateY(-440px) translateX(-525px);
+    transform: rotate(90deg) translateY(-445px) translateX(-535px);
     position: absolute;
 
 }
@@ -143,4 +150,5 @@ header nav{
 .vertical-sidebar li{
     display: inline;
     padding: 0px 20px 0px 20px;
+    font-weight: 700;
 }
