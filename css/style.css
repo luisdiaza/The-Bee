@@ -2,22 +2,29 @@ body{
     font-family: 'Lato';
     font-size: 100%; /* displaying font size in percents and em displays the same size in all browsers and allows them to resize them*/
     padding: 1.25% 5% 0 5%;
-    /*padding: 0;/* following two lines removes white on all sides of website*/
-    /*margin: 0;*/
-    max-width: 95%;
+    box-sizing: border-box;
+    padding: 0;/* following two lines removes white on all sides of website*/
+    margin: 0;
     letter-spacing: 2px;/*spacing between leters*/
+    min-height: 100vh;
+}
+
+html{
+    height: 100%;
 }
 
 /* Global */
 
 .container{
     width: 100%;
+    max-width: 1200px;
     margin: auto; /* automatically centers elements within their container */
 }
 
 ul{ /* removes the padding for all unordered lists*/
     margin: 0;
     padding: 0;
+    display: inline;
 }
 
 p{
@@ -51,8 +58,8 @@ header li{
     text-transform: uppercase;
     padding: 0px 20px 0px 20px;
 }
-.free-shipping{
-    padding-right: 100px;
+.first-ul-padding {
+    padding-right: 103px;
 }
 .bars{
     padding-right: 0px;
@@ -66,12 +73,9 @@ header nav{
 
 /* Product Section */
 .product-content-boxes{
-    width: 86.125%
     padding: 0 7%;
-    display: table;
-    height: 78vh;
     margin: 0;
-    margin-top: 14%;
+    margin-top: 7%;
     max-width: none;
 }
 
@@ -82,10 +86,11 @@ header nav{
 }
 .box-image-padding{
     padding-left: 20px;
+    text-align: center;
 }
 
 .box-text-padding{
-    padding-left: 4%;
+    padding-left: 6%;
 }
 
 .section-image{
@@ -151,4 +156,9 @@ header nav{
     display: inline;
     padding: 0px 20px 0px 20px;
     font-weight: 700;
+}
+
+/* Media Queries */
+@media screen and {
+
 }
