@@ -1,0 +1,189 @@
+body{
+    font-family: 'Lato';
+    font-size: 100%; /* displaying font size in percents and em displays the same size in all browsers and allows them to resize them*/
+    box-sizing: border-box;
+    padding: 0;/* following two lines removes white on all sides of website*/
+    margin: 0;
+    letter-spacing: 2px;/*spacing between leters*/
+    min-height: 100vh;
+}
+
+html{
+    height: 100%;
+}
+
+/* Global */
+
+.container{
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 10px 0 10px;
+    margin: auto; /* automatically centers elements within their container */
+}
+
+ul{ /* removes the padding for all unordered lists*/
+    margin: 0;
+    padding: 0;
+    display: inline;
+}
+
+p{
+    line-height: 1.8em;
+}
+
+/* Header */
+header{
+    /*padding-top: 30px;*/
+    min-height: 60px;
+    padding: 0 10px 0 10px;
+    /*border-bottom: #ED5144 3px solid;*/
+}
+
+header .branding{
+    float: left;
+    text-transform: uppercase;
+    color: #484d56;
+    font-size: .75em;
+    margin-top: 1%;
+}
+
+.title {
+    font-weight: 400;
+    line-height: 1em;
+}
+header a{
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+header li{
+    float: left;
+    display: inline;
+    text-transform: uppercase;
+    padding: 0px 20px 0px 20px;
+}
+.first-ul-padding {
+    padding-right: 103px;
+}
+.bars{
+    /*padding-right: 0px;*/
+    padding-left: 0px;
+}
+
+header nav{
+    float: right;
+    margin-top: 2.5%;
+    line-height: 2em;
+}
+
+/* Product Section */
+.product-content-boxes{
+    padding: 0 7%;
+    margin: 0;
+    margin-top: 7%;
+    max-width: none;
+}
+
+.product-content-box{
+    float: left;
+    width: 45%;
+    padding: 10px;
+    position: relative;
+    box-sizing: border-box;
+}
+.box-image-padding{
+    padding-left: 20px;
+    text-align: center;
+}
+
+.box-text-padding{
+    padding-left: 6%;
+}
+
+.section-image{
+    height: auto;
+    width: 75%;
+    /*height: 532px;
+    width: 582px;
+    /*margin-left: 30%;*/
+}
+
+.from-bees{
+    text-transform: uppercase;
+    border-bottom: #ED5144 3px solid; /* border bottom's length is the same as the div's width it's contained within*/
+    display: inline-block;
+    margin: 0;
+    font-weight: 700;
+    /*width: 8%; /* this is why you need to modify the div's width so you get the length that you want */
+}
+
+.from-bees, .description, .delivery-type, .vertical-sidebar li {
+    color: #70727a;
+}
+
+.honey-type{
+    font-size: 3.5em;
+    height: 10%;
+    margin: 5% 0 5% 0;
+    font-weight: 700;
+}
+
+.price{
+    color: #ED5144;
+    font-size: 2em;
+    margin: 0
+}
+
+.description{
+    width: 90%;
+    font-weight: 500;
+}
+.add-to-cart{
+    text-transform: uppercase;
+    background-color: #ED5144;
+    border: none;/* buttons come with a border by default*/
+    color: white;
+    padding: 21px 93px;
+    text-align: center;
+    font-size: 1em;
+    /*font-size: 1.5em;*/
+    letter-spacing: 2px;
+    border-radius: 4px;
+}
+.delivery-type{
+    margin-top: 10%;
+}
+.vertical-sidebar{
+    transform: rotate(90deg);
+    position: absolute;
+    right: -205px;
+    top: 90px;
+}
+
+.vertical-sidebar li{
+    display: inline;
+    padding: 0px 20px 0px 20px;
+    font-weight: 700;
+}
+
+/* Media Queries */
+
+/* Goes from two columns to one column and hides nav */
+@media only screen and (max-width : 768px) {
+    .first-ul{
+        display: none;
+    }
+
+    .product-content-box{
+        width: 100%;
+    }
+
+    .box-image-padding{
+        padding: 0%;
+    }
+    .vertical-sidebar{
+        transform: none;
+        position: static;
+    }
+
+}
