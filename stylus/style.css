@@ -28,10 +28,8 @@ p {
 }
 /* Header */
 header {
-/*padding-top: 30px;*/
   min-height: 60px;
   padding: 0 10px 0 10px;
-/*border-bottom: #ED5144 3px solid;*/
 }
 header .branding {
   float: left;
@@ -39,10 +37,6 @@ header .branding {
   color: #484d56;
   font-size: 0.75em;
   margin-top: 1%;
-}
-.title {
-  font-weight: 400;
-  line-height: 1em;
 }
 header a {
   text-decoration: none;
@@ -54,17 +48,20 @@ header li {
   text-transform: uppercase;
   padding: 0px 20px 0px 20px;
 }
-.first-ul-padding {
-  padding-right: 103px;
-}
-.bars {
-/*padding-right: 0px;*/
-  padding-left: 0px;
-}
 header nav {
   float: right;
   margin-top: 2.5%;
   line-height: 2em;
+}
+.title {
+  font-weight: 400;
+  line-height: 1em;
+}
+.first-ul-padding {
+  padding-right: 103px;
+}
+.bars {
+  padding-left: 0px;
 }
 /* Product Section */
 .product-content-boxes {
@@ -90,9 +87,6 @@ header nav {
 .section-image {
   height: auto;
   width: 75%;
-/*height: 532px;
-    width: 582px;
-    /*margin-left: 30%;*/
 }
 .from-bees {
   text-transform: uppercase;

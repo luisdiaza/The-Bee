@@ -33,49 +33,41 @@ p{
 
 /* Header */
 header{
-    /*padding-top: 30px;*/
     min-height: 60px;
     padding: 0 10px 0 10px;
-    /*border-bottom: #ED5144 3px solid;*/
+    .branding{
+        float: left;
+        text-transform: uppercase;
+        color: #484d56;
+        font-size: .75em;
+        margin-top: 1%;
+    }
+    a{
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+    li{
+        float: left;
+        display: inline;
+        text-transform: uppercase;
+        padding: 0px 20px 0px 20px;
+    }
+    nav{
+        float: right;
+        margin-top: 2.5%;
+        line-height: 2em;
+    }
 }
-
-header .branding{
-    float: left;
-    text-transform: uppercase;
-    color: #484d56;
-    font-size: .75em;
-    margin-top: 1%;
-}
-
 .title {
     font-weight: 400;
     line-height: 1em;
-}
-header a{
-    text-decoration: none;
-    text-transform: uppercase;
-}
-
-header li{
-    float: left;
-    display: inline;
-    text-transform: uppercase;
-    padding: 0px 20px 0px 20px;
 }
 .first-ul-padding {
     padding-right: 103px;
 }
 .bars{
-    /*padding-right: 0px;*/
     padding-left: 0px;
 }
-
-header nav{
-    float: right;
-    margin-top: 2.5%;
-    line-height: 2em;
-}
-
 /* Product Section */
 .product-content-boxes{
     padding: 0 7%;
@@ -103,9 +95,6 @@ header nav{
 .section-image{
     height: auto;
     width: 75%;
-    /*height: 532px;
-    width: 582px;
-    /*margin-left: 30%;*/
 }
 
 .from-bees{
@@ -117,7 +106,10 @@ header nav{
     /*width: 8%; /* this is why you need to modify the div's width so you get the length that you want */
 }
 
-.from-bees, .description, .delivery-type, .vertical-sidebar li {
+.from-bees,
+.description,
+.delivery-type,
+.vertical-sidebar li {
     color: #70727a;
 }
 
@@ -158,12 +150,11 @@ header nav{
     position: absolute;
     right: -205px;
     top: 90px;
-}
-
-.vertical-sidebar li{
-    display: inline;
-    padding: 0px 20px 0px 20px;
-    font-weight: 700;
+    li{
+        display: inline;
+        padding: 0px 20px 0px 20px;
+        font-weight: 700;
+    }
 }
 
 /* Media Queries */
