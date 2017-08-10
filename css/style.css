@@ -175,12 +175,30 @@ header nav{
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
+    .container{
+        width: 95%;
+    }
+    header nav{
+        margin-top: 3%;
+    }
+
+    .box-image-padding{
+        padding: 0%;
+    }
+
+    .from-bees{
+        width: 40%;
+    }
+
+    .vertical-sidebar{
+        transform: none;
+    }
 
 }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
-    header{
+     header{
     padding: 0 10px 0 10px;
     }
     .first-ul{
