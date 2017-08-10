@@ -34,7 +34,7 @@ p{
 header{
     /*padding-top: 30px;*/
     min-height: 60px;
-    border-bottom: #ED5144 3px solid;
+    /*border-bottom: #ED5144 3px solid;*/
 }
 
 header .branding{
@@ -150,7 +150,7 @@ header nav{
     margin-top: 10%;
 }
 .vertical-sidebar{
-    transform: rotate(90deg) translateY(-445px) translateX(-535px);
+    transform: rotate(90deg) translateY(-410px) translateX(-568px);
     position: absolute;
 
 }
@@ -164,13 +164,32 @@ header nav{
 /* Media Queries */
 
 /* Large Devices, Wide Screens */
-@media only screen and (min-width : 1200px) {
-
+@media only screen and (max-width : 1200px) {
+    .container{
+        width: 98%;
+    }
+    .from-bees{
+        width: 25%;
+    }
+    .vertical-sidebar{
+        transform: rotate(90deg) translateY(-400px) translateX(-593px)
+    }
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
-
+    .container{
+        width: 95%;
+    }
+    .product-content-box{
+        width: 44%;
+    }
+    .from-bees{
+        width: 30%;
+    }
+    .vertical-sidebar{
+        transform: none;
+    }
 }
 
 /* Small Devices, Tablets */
